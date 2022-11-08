@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    /* padding: 40px; */
+}
+
+.top-navbar {
+    padding-left: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+    height: 80px;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    max-width: 1400px;
+    z-index: 999;
+
+}
+
+.bg-color {
+    background-color: #ff0000 !important;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.top-navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.top-navbar-left img {
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.top-navbar-links {
+    display: flex;
+    gap: 2rem;
+
+}
+
+.top-navbar-links a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.top-navbar-links a:hover {
+    color: tomato;
+}
+
+.top-navbar-right {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.top-navbar-right a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+.top-navbar-right a:hover {
+    color: tomato;
+}
+
+
+.top-navbar-right button {
+    padding: 12px;
+    border: none;
+    background-color: teal;
+    color: #fff;
+    border-radius: 5%;
+    cursor: pointer;
+}
+
+.top-navbar-right button:hover {
+    background-color: rgb(10, 119, 119);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+}
+
+.hero-left h1 {
+    font-size: 62px;
+    font-weight: bold;
+
+}
+
+.hero-left p {
+    width: 400px;
+    line-height: 32px;
+
+}
+
+.hero-left button {
+    border: none;
+    background-color: #FF8C74;
+    color: #fff;
+    width: 150px;
+    padding: .7em;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-right img {
+    width: 700px;
+}
+
+/* HOW IT WORKS */
+
+.how-it-works {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 400px;
+    margin: auto;
+    gap: 2.5rem;
+    height: 100vh;
+}
+
+.hiw-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.how-it-works-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    /* border: #FF8C74 2px solid; */
+    box-shadow: 2px 5px 10px 5px #dadada;
+    padding: 2em;
+}
+
+.card p {
+    align-items: center;
+    text-align: center;
+}
+
+.card img {
+    width: 300px;
+    height: 300px;
+}
+
+/* BOOK */
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh;
+    /* gap:6rem */
+}
+
+.book-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8rem;
+}
+
+.book-left img {
+    width: 500px;
+    opacity: 0.8;
+}
+
+.book-right {
+    /* border: 1px solid #FF8C74; */
+    background-color: #eee;
+}
+
+form {
+    width: 400px;
+    padding: 30px;
+}
+
+form label {
+    color: rgb(47, 47, 47)
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    outline: 1px solid #f8eae7;
+}
+
+
+
+.book-right button {
+    margin-top: 20px;
+    border: none;
+    background-color: #FF8C74;
+    color: #fff;
+    width: 150px;
+    padding: .7em;
+    font-size: 17px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ABOUT */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* background-color: #eee; */
+    width: 100%;
+}
+
+.about h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.about img {
+    width: 500px;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: center;
+}
+
+.about-left p {
+    width: 500px;
+    line-height: 32px;
+}
+
+/* FOOTER */
+.footer {
+    height: 50px;
+    background-color: #FF8C74;
+    align-items: center;
+}
+
+.footer p {
+    text-align: center;
+    color: #fff;
+}
