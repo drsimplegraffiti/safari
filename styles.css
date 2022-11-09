@@ -17,14 +17,16 @@ body {
     padding-left: 40px;
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: space-between;
     overflow: hidden;
     height: 80px;
     top: 0;
     position: fixed;
     width: 100%;
-    max-width: 1400px;
+    /* max-width: 1400px; */
     z-index: 999;
+   
 
 }
 
@@ -46,6 +48,7 @@ body {
 
 .top-navbar-left img {
     width: 60px;
+    height: 60px;
     border-radius: 50%;
     cursor: pointer;
 }
@@ -58,7 +61,7 @@ body {
 
 .top-navbar-links a {
     text-decoration: none;
-    color: #000;
+    color: #f4915c;
     font-size: 18px;
 }
 
@@ -70,11 +73,12 @@ body {
     display: flex;
     gap: 2rem;
     align-items: center;
+    margin: 0 40px;
 }
 
 .top-navbar-right a {
     text-decoration: none;
-    color: #000;
+    color: #f4915c;
     font-size: 18px;
 }
 
@@ -163,7 +167,7 @@ body {
 
 .card {
     /* border: #FF8C74 2px solid; */
-    box-shadow: 2px 5px 10px 5px #dadada;
+    box-shadow: 1px 1px 1px 0px #dadada;
     padding: 2em;
 }
 
@@ -207,6 +211,7 @@ body {
 form {
     width: 400px;
     padding: 30px;
+
 }
 
 form label {
@@ -267,6 +272,11 @@ input[type=text] {
 .about-left p {
     width: 500px;
     line-height: 32px;
+}
+
+.fa-regular {
+    font-size: 30px;
+    cursor: pointer
 }
 
 /* FOOTER */
